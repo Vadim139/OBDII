@@ -11,6 +11,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="MainVI.vi" Type="VI" URL="../MainVI.vi"/>
+		<Item Name="One_Command(SubVI).vi" Type="VI" URL="../One_Command(SubVI).vi"/>
 		<Item Name="Serial_Init(SubVI).vi" Type="VI" URL="../Serial_Init(SubVI).vi"/>
 		<Item Name="serial_init.vi" Type="VI" URL="../serial_init.vi"/>
 		<Item Name="serial_init_sub.vi" Type="VI" URL="../serial_init_sub.vi"/>
