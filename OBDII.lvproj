@@ -55,6 +55,8 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="1-at-a-time.vi" Type="VI" URL="../1-at-a-time.vi"/>
+			<Item Name="convert(SubVI).vi" Type="VI" URL="../convert(SubVI).vi"/>
+			<Item Name="Hex to Decimal(SubVI).vi" Type="VI" URL="../Hex to Decimal(SubVI).vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="My Application" Type="EXE">
