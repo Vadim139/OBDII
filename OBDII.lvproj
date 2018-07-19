@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="17008000">
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -10,13 +11,12 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Documentation" Type="Folder">
+			<Item Name="OSP_raport_final.pdf" Type="Document" URL="../OSP_raport_final.pdf"/>
+		</Item>
 		<Item Name="MainVI.vi" Type="VI" URL="../MainVI.vi"/>
 		<Item Name="One_Command(SubVI).vi" Type="VI" URL="../One_Command(SubVI).vi"/>
 		<Item Name="Serial_Init(SubVI).vi" Type="VI" URL="../Serial_Init(SubVI).vi"/>
-		<Item Name="serial_init.vi" Type="VI" URL="../serial_init.vi"/>
-		<Item Name="serial_init_sub.vi" Type="VI" URL="../serial_init_sub.vi"/>
-		<Item Name="serial_write_read.vi" Type="VI" URL="../serial_write_read.vi"/>
-		<Item Name="serial_write_readback.vi" Type="VI" URL="../serial_write_readback.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -45,6 +45,7 @@
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
@@ -54,9 +55,16 @@
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="1-at-a-time.vi" Type="VI" URL="../1-at-a-time.vi"/>
+			<Item Name="1-at-a-time(SubVI).vi" Type="VI" URL="../1-at-a-time(SubVI).vi"/>
+			<Item Name="Array_extraction(SubVI).vi" Type="VI" URL="../Array_extraction(SubVI).vi"/>
 			<Item Name="convert(SubVI).vi" Type="VI" URL="../convert(SubVI).vi"/>
+			<Item Name="data_array_creation(SubVI).vi" Type="VI" URL="../data_array_creation(SubVI).vi"/>
+			<Item Name="Empty_queue(SubVI).vi" Type="VI" URL="../Empty_queue(SubVI).vi"/>
+			<Item Name="Enqueue_data(SubVI).vi" Type="VI" URL="../Enqueue_data(SubVI).vi"/>
+			<Item Name="File_save(SubVI).vi" Type="VI" URL="../File_save(SubVI).vi"/>
 			<Item Name="Hex to Decimal(SubVI).vi" Type="VI" URL="../Hex to Decimal(SubVI).vi"/>
+			<Item Name="Prepare_Error_Array(SubVI).vi" Type="VI" URL="../Prepare_Error_Array(SubVI).vi"/>
+			<Item Name="string_prepare(SubVI).vi" Type="VI" URL="../string_prepare(SubVI).vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="My Application" Type="EXE">
